@@ -1,5 +1,15 @@
 require 'sinatra'
 
 get '/' do
+<<EOS
+<html>
+<head>
+<title>HELLO!</title>
+</head>
+<body>
+HELLO world!
+</body>
+</html>
+EOS
   "<HI>Hello World! AIIT<\HI>"
 end
