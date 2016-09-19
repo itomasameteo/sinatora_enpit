@@ -11,9 +11,6 @@ HELLO world!
 </body>
 </html>
 EOS
-  "<HI>Hello World! AIIT!!!!<\HI>"
-end
+"<HI>Hello World! AIIT!!!!<\HI>"
 
-get '/hello/:name' do
-  "Hello #{params['name']}!"
 end
